@@ -1,9 +1,9 @@
 # Basic
-title: Edmund Merlin
-subtitle: A blog-orientation theme for Jekyll
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: Edmund Merlin's Jekyll Blog
-creator: <a href="http://onev.cat">@onevcat</a>
+title: Momodel
+subtitle: 
+welcome_message: 
+description: Momodel Blog
+# creator: <a href="http://onev.cat">@onevcat</a>
 
 url: "http://vno.onevcat.com"
 
@@ -13,7 +13,7 @@ permalink: /:year/:month/:title/
 highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: red
+cover_color: blue
 
 # The blog button should not be removed.
 blog_button:
@@ -22,7 +22,7 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    - {title: Go to Momodel, description: Go, url: 'http://momodel.ai/'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
@@ -30,18 +30,18 @@ gems: [jekyll-paginate]
 paginate: 10
 paginate_path: "page/:num/"
 
-# Comment
-comment:
-    disqus: vno-jekyll
+# # Comment
+# comment:
+#     disqus: vno-jekyll
     # duoshuo: 
     
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
-    gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    # weibo: onevcat
+    github: https://github.com/momodel/momodel
+    # twitter: onevcat
+    # gplus: 107108267983477358170
+    mail: service@momodel.ai
 
 # Google Analytics
 ga:
