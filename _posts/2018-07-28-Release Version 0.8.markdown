@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Introduction
+title: Release Version 0.8
 date: 2018-07-28 12:00
 ---
-#### Release Version 0.8
 
 ##### Features:
 
