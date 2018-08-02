@@ -1,8 +1,8 @@
 # Basic
-title: Mo
+title: MO
 subtitle: 发现意外，创造可能
 welcome_message: 
-description: Mo Blog
+description: MO Blog
 # creator: <a href="http://onev.cat">@onevcat</a>
 
 url: "https://momodel.github.io/"
@@ -22,7 +22,7 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Go to Mo, description: Go, url: 'http://momodel.ai/'}
+    - {title: Go to MO, description: Go, url: 'http://momodel.ai/'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
