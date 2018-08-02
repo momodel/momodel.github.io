@@ -17,7 +17,7 @@ date: 2018-07-28 12:00
 - file uploading process
 - sidebar composing in Notebook
 
-##### Bug fixed:
+##### Bug Fixed:
 - disappearance of pip package after container restaring 
 - checked exception of git link for source repo 
 - path problem of module inputting
