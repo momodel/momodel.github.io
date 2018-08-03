@@ -40,7 +40,7 @@ date: 2018-07-28 12:00
 - Sidebar layout in Notebook
 
 ##### Bug Fixed:
-- Pip package loss after container restaring 
+- Pip package loss after container restarting 
 - Check exception for source repo link
 - Python compatibility problem
 
