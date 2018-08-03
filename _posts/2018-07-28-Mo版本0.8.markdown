@@ -1,41 +1,39 @@
 ---
 layout: post
-title: 版本0.8
+title: Mo版本0.8
 date: 2018-07-28 12:00
 ---
 
-#### 版本0.8
-
-##### 新功能:
+#### 新功能:
 - 新增app和module的版本控制
 - 聊天室中显示用户动态
 - 支持项目源码查看
 - 新增Notebook开发环境常用包
 - 支持大文件上传和断点续传
 
-##### 改进:
+#### 改进:
 - 标签搜索机制
 - Notebook中侧栏排版
 
-##### 修复:
+#### 修复:
 - 重启container后pip包丢失问题 
 - Source repo链接检查异常问题 
 - Python兼容性问题
 
 #### Release Version 0.8
 
-##### Features:
+#### Features:
 - Version control for apps and modules
 - User activity notification in chatroom
 - Source code preview for projects
 - Common use package for notebook environment
 - Big file uploading and breakpoint resume
 
-##### Improvement:
+#### Improvement:
 - Tag research mechanism
 - Sidebar layout in Notebook
 
-##### Bug Fixed:
+#### Bug Fixed:
 - Pip package loss after container restarting 
 - Check exception for source repo link
 - Python compatibility problem
