@@ -1,0 +1,48 @@
+---
+layout: post
+title: Release Version 0.8
+date: 2018-07-28 12:00
+---
+
+#### 版本0.8
+
+##### 新功能:
+
+- 新增app和module的版本控制
+- 聊天室中显示用户动态
+- 支持项目源码查看
+- 新增Notebook开发环境常用包
+- 支持大文件上传和断点续传
+
+##### 改进:
+- 标签搜索机制
+- 文件上传功能
+- Notebook中侧栏排版
+
+##### 修复:
+- 重启container后pip包丢失问题 
+- Source repo链接检查异常问题 
+- Python兼容性问题
+
+#### Rlease Version 0.8
+
+##### Features:
+
+- Version control for apps and modules
+- User activity notification in chatroom
+- Source code preview for projects
+- Common use package for notebook environment
+- Big file uploading and breakpoint resume
+
+##### Improvement:
+- Tag research mechanism
+- File uploading process
+- Sidebar layout in Notebook
+
+##### Bug fixed:
+- Pip package loss after container restaring 
+- Check exception for source repo link
+- Python compatibility problem
+
+
+
