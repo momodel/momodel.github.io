@@ -24,7 +24,7 @@ date: 2018-07-28 12:00
 - Source repo链接检查异常问题 
 - Python兼容性问题
 
-#### Rlease Version 0.8
+#### Release Version 0.8
 
 ##### Features:
 
@@ -39,7 +39,7 @@ date: 2018-07-28 12:00
 - File uploading process
 - Sidebar layout in Notebook
 
-##### Bug fixed:
+##### Bug Fixed:
 - Pip package loss after container restaring 
 - Check exception for source repo link
 - Python compatibility problem
