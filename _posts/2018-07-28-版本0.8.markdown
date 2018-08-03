@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mo版本0.8
+title: 版本0.8
 date: 2018-07-28 12:00
 ---
 
