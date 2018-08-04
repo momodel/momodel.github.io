@@ -18,7 +18,7 @@ date: 2018-07-28 12:00
 - Notebook中侧栏排版
 
 #### 修复:
-- 重启container后pip包丢失问题 
+- 重启项目后Python中的包丢失问题 
 - Source repo链接检查异常问题 
 - Python兼容性问题
 
@@ -28,15 +28,15 @@ date: 2018-07-28 12:00
 - Version control for apps and modules
 - User activity notification in chatroom
 - Source code preview for projects
-- Common use package for notebook environment
-- Big file uploading and breakpoint resume
+- Common packages for Notebook environment
+- Large file uploading and breakpoint resume
 
 #### Improvement:
 - Tag research mechanism
 - Sidebar layout in Notebook
 
 #### Bug Fixed:
-- Pip package loss after container restarting 
+- Python package loss after project resetting 
 - Check exception for source repo link
 - Python compatibility problem
 
