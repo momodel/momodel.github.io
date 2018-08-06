@@ -21,6 +21,7 @@
           <div>
             <nav class="cover-navigation cover-navigation--primary">
               <ul class="navigation">
+                {% for item in site.nav %}
                   <li class="navigation__item"><a href="{{item.url}}" target="_blank" title="{{item.description}}">{{item.title}}</a></li>
                 {% endfor %}
               </ul>
