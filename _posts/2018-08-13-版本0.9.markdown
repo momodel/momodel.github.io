@@ -11,7 +11,6 @@ date: 2018-07-28 12:00
 #### 改进:
 - 聊天室首页介绍与排版
 - 聊天室综合频道消息推送分类
-- 找回密码功能
 - 项目重复命名提醒机制
 - Notebook中module的调用方式
 
@@ -28,7 +27,6 @@ date: 2018-07-28 12:00
 #### Improvement:
 - Introduction and layout of chatroom's home page
 - Classification for user activity notification in chatroom
-- Password retrieval funtion
 - Warning mechanism for duplicate names of projects
 - Importing method of modules in Notebook
 
