@@ -9,6 +9,7 @@ date: 2018-08-13 12:00
 - Notebook中已导入数据集的预览功能
 
 #### 改进:
+- 项目命名限制减少
 - 聊天室首页介绍与排版
 - 聊天室综合频道消息推送分类
 - 项目重复命名提醒机制
@@ -25,6 +26,7 @@ date: 2018-08-13 12:00
 - Instant preview for imported datasets in Notebook
 
 #### Improvement:
+- Reduced restrictions on project names 
 - Introduction and layout of chatroom's home page
 - Classification for user activity notification in chatroom
 - Warning mechanism for duplicate names of projects
