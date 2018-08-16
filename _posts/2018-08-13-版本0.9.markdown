@@ -6,7 +6,7 @@ date: 2018-08-13 12:00
 #### 版本0.9
 
 #### 新功能:
-- Notebook中已导入数据集的预览功能
+- Notebook中已导入数据集的档案预览功能
 
 #### 改进:
 - 项目命名限制减少
@@ -23,7 +23,7 @@ date: 2018-08-13 12:00
 #### Release Version 0.9
 
 #### Features:
-- Instant preview for imported datasets in Notebook
+- Instant preview for imported dataset files in Notebook
 
 #### Improvement:
 - Reduced restrictions on project names 
