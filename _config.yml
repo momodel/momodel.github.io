@@ -38,7 +38,7 @@ paginate_path: "page/:num/"
 # Social
 social:
     # weibo: 
-    github: https://github.com/momodel/mo
+    github: https://github.com/momodel
     # twitter: 
     # gplus: 107108267983477358170
     mail: service@momodel.ai
