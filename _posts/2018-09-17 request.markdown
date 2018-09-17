@@ -1,9 +1,3 @@
----
-layout: post
-title: Introducing Workspace of Mo
-author: Rehearsal
-date: 2018-09-17 12:00
----
 ## Instructions for _Request_ Page
 As the name suggests, _Request_ page is where general users raise requests and others offer solutions.
 ### What can be requests?
