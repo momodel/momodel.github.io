@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Instruction for Dataset Projects
+title: Instructions for Dataset Projects
 author: Lulu
 date: 2018-09-12 12:00
 --- 
