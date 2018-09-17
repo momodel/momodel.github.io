@@ -7,23 +7,23 @@ date: 2018-09-7 12:00
 #### 新功能：
 - Notebook中新增若干功能：
 
-1. 包含参数信息查看、单词补全等功能在内的智能感知与验证功能；
-2. 自动处理部署环境的依赖，确保app顺利部署；
-3. 操作快捷键显示；
-4. 编辑项目overview功能；
-5. 支持在线文档查看功能；
-6. 右侧栏个人项目显示；
-7. 部署失败错误提示记录查看
+   1. 包含参数信息查看、单词补全等功能在内的智能感知与验证功能；
+   2. 自动处理部署环境的依赖，确保app顺利部署；
+   3. 操作快捷键显示；
+   4. 编辑项目overview功能；
+   5. 支持在线文档查看功能；
+   6. 右侧栏个人项目显示；
+   7. 部署失败错误提示记录查看
 
 - 工作区页面新增若干功能：
 
-1. 新建项目失败的事务处理功能
-2. 新建项目时随机生成相关配图功能
+  1. 新建项目失败的事务处理功能
+  2. 新建项目时随机生成相关配图功能
 
 - 发现页面新增若干功能：
-
-1. 新增“最佳开发者”栏目
-2. 新增查看用户项目列表入口
+  
+  1. 新增“最佳开发者”栏目
+  2. 新增查看用户项目列表入口
 
 - Tutorial和Fork项目的信息修改：初始代码中的API密钥等信息与当前用户ID对应。
 
@@ -41,21 +41,21 @@ date: 2018-09-7 12:00
 #### Features：
 
 - New features in Notebook：
-1. IntelliSense and validation functions including parameter viewing and word auto-completion
-2. Auto-process of deployment environment dependency
-3. Display of operation shortcuts 
-4. Edit function of project overview 
-5. DevDocs supported 
-6. Personal projects viewing in right-sidebar 
-7. Deployment error record check function
+  1. IntelliSense and validation functions including parameter viewing and word auto-completion
+  2. Auto-process of deployment environment dependency
+  3. Display of operation shortcuts 
+  4. Edit function of project overview 
+  5. DevDocs supported 
+  6. Personal projects viewing in right-sidebar 
+  7. Deployment error record check function
 
 - New features in Workspace：
-1. Transaction processing function for new project failure
-2. Randomly generate related pictures for newly created projects
+  1. Transaction processing function for new project failure
+  2. Randomly generate related pictures for newly created projects
 
 - New features in Explore Page：
-1. "Best Developer" Column
-2. Access for user projects’ preview
+  1. "Best Developer" Column
+  2. Access for user projects’ preview
 
 - Information modification of the Tutorial and Forked projects: Make the information in initial code such as the API key corresponds to the current user ID.
 
