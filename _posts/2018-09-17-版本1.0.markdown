@@ -7,7 +7,7 @@ date: 2018-09-7 12:00
 #### 新功能：
 - Notebook中新增若干功能：
 
-1. 包括参数信息查看、单词补全等功能在内的智能感知与验证功能；
+1. 包含参数信息查看、单词补全等功能在内的智能感知与验证功能；
 2. 自动处理部署环境的依赖，确保app顺利部署；
 3. 操作快捷键显示；
 4. 编辑项目overview功能；
@@ -15,23 +15,22 @@ date: 2018-09-7 12:00
 6. 右侧栏个人项目显示；
 7. 部署失败错误提示记录查看
 
-- 工作区页面增加关于新建项目的若干功能：
+- 工作区页面新增若干功能：
 
 1. 新建项目失败的事务处理功能
 2. 新建项目时随机生成相关配图功能
 
 - 发现页面新增若干功能：
 
-1. 新增项目配图功能
-2. 新增“最佳开发者”栏目
-3. 新增查看用户项目列表入口
+1. 新增“最佳开发者”栏目
+2. 新增查看用户项目列表入口
 
 - Tutorial和Fork项目的信息修改：初始代码中的API密钥等信息与当前用户ID对应。
 
 #### 改进：
-- 发现页面设计与排版优化：显示图片与智能推荐
+- 发现页面设计与排版优化：显示项目图片与智能推荐
 - 需求页面设计与排版优化：显示项目类型简介与智能排序筛选框
-- Notebook中右侧栏设计排版优化：将历史记录、收藏列表与项目列表区分
+- Notebook中右侧栏设计排版优化：将历史记录、收藏列表与项目列表进行区分
 - 网站语言统一为英文
 - 增加解决冷启动的默认标签选项
 
@@ -48,7 +47,7 @@ date: 2018-09-7 12:00
 4. Edit function of project overview 
 5. DevDocs supported 
 6. Personal projects viewing in right-sidebar 
-7. Deployment error history
+7. Deployment error record check function
 
 - New features in Workspace：
 1. Transaction processing function for new project failure
@@ -58,7 +57,7 @@ date: 2018-09-7 12:00
 1. "Best Developer" Column
 2. Access for user projects’ preview
 
-- Information modification of the Tutorial and Forked projects: The information such as the API key in the initial code corresponds to the current user ID.
+- Information modification of the Tutorial and Forked projects: Make the information in initial code such as the API key corresponds to the current user ID.
 
 #### Improvements:
 
