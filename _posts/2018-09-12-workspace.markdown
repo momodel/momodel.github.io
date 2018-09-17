@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Introducing Workspace of Mo
+author: Magicalion
 date: 2018-09-12 12:00
 ---
 ## Introducing Workspace of Mo
