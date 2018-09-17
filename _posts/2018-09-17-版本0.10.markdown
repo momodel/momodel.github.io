@@ -13,13 +13,14 @@ date: 2018-09-7 12:00
    5. 右侧栏个人项目显示；
    6. 部署测试失败错误提示记录查看
 
-- 工作区页面新增若干功能：
-  1. 新建项目失败的事务处理功能
-  2. 新建项目时随机生成相关配图功能
+- 工作区页面新增以下功能：
+   1. 新建项目失败的事务处理功能
+   2. 新建项目时随机生成相关配图功能
 
-- 发现页面新增以下功能：
-  1. 新增“最佳开发者”栏目
-  2. 新增查看用户项目列表入口
+- 发现页面新增项目推荐主页面：
+   1. 显示不同类别项目推荐与需求推荐
+   2. 新增“最佳开发者”栏目
+   3. 新增查看用户项目列表入口
 
 - Tutorial和Fork项目的信息修改：初始代码中的API密钥等信息与当前用户ID对应。
 
@@ -36,20 +37,20 @@ date: 2018-09-7 12:00
 
 #### Features：
 - New features in Notebook：
-  1. IntelliSense and validation functions including parameter viewing and word auto-completion
-  2. Auto-process of deployment environment dependency
-  3. Edit function of project overview 
-  4. DevDocs supported 
-  5. Personal projects viewing in right-sidebar 
-  6. View error logs about deployment test failures
+   1. IntelliSense and validation functions including parameter viewing and word auto-completion
+   2. Auto-process of deployment environment dependency
+   3. Edit function of project overview 
+   4. DevDocs supported 
+   5. Personal projects viewing in right-sidebar 
+   6. View error logs about deployment test failures
 
 - New features in Workspace：
-  1. Transaction processing function for new project failure
-  2. Randomly generate related pictures for newly created projects
+   1. Transaction processing function for new project failure
+   2. Randomly generate related pictures for newly created projects
 
 - New features in Explore Page：
-  1. "Best Developer" Column
-  2. Access for user projects’ preview
+   1. "Best Developer" Column
+   2. Access for user projects’ preview
 
 - Information modification of the Tutorial and Forked projects: Make the information in initial code such as the API key corresponds to the current user ID.
 
