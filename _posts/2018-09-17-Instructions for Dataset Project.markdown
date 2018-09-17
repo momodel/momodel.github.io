@@ -1,4 +1,9 @@
-##  Instructions for Dataset Project
+---
+layout: post
+title: Introducing Workspace of Mo
+author: Rehearsal
+date: 2018-09-12 12:00
+--- 
 ### What is dataset
 Data sets are essential in machine learning and it is the source of knowledge.  Usually the data sets we are talking about are collected for specific tasks, such as historical weather data for a region, traffic data for a city, historical transaction data for a stock market, capacity data for a factory, and so on. Your every move also produces data, such as your consumption record. Data is common, but it often needs to be collected with care.
 ### Explore dataset
