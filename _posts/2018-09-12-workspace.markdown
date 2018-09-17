@@ -4,7 +4,6 @@ title: Introducing Workspace of Mo
 author: Magicalion
 date: 2018-09-12 12:00
 ---
-## Introducing Workspace of Mo
 
 One powerful feature of Mo is an on-line Integrated Developing Environment (IDE), which let you implement the Machine-Learning (ML) based application without install client-side development tools. The "*Workpsace*" section is the primary entry of your coding task in Mo. Now, let's check it out!
 
