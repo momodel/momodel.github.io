@@ -1,0 +1,19 @@
+## Instructions for _Request_ Page
+As the name suggests, _Request_ page is where general users raise requests and others offer solutions.
+### What can be requests?
+We have no restrictions on users' requests. They may come from unsolved problems which bring about troubles in daily life, tricky business challenges that require certain softwares, missing modules in an AI app development process and so forth. 
+Broadly speaking, requests can also be fancy ideas which currently lack of ready-made apps. For instance, if you want to design an AI app by yourself, you are perfectly clear what it for and how it works, you can raise it as a request and describe all your thoughts behind it. The other day, you may find that someone has already offered you a satisfying answer, isn't that amazing?
+### How to raise good requests?
+If you would like to raise a request, first and foremost, you need to figure out what you exactly want. Mo offers three types of solution projects in response to the requests: apps, modules and datasets. 
+
+- An app is a software program which is designed to perform a specific function directly for the user. If you have a fancy idea, you need an app to realize it.
+- Modules are developer-oriented software components which make up apps. Our platform have two categories of modules: models and toolkits. Models can be trained while toolkits cannot.
+- A dataset is a collection of data. When you are developing modules, you need dataset to train them. MNIST, IRIS, SCADI are famous datasets for machine learning.
+
+After choosing your request category, it's also essential to keep the request title concise and to the point. The titles will be presented at request list page where your target responders(mostly developers) browse most. Next, describe your request as specific as possible, you may indicate the function, the use purpose, the input and output…… High-quality requests are likely to receive more responses within shorter time, and thus having bigger chance to get the best solutions. 
+### How to answer requests?
+When you browse Request page, you might be attracted by some interesting requests and have an intention to solve them. You can either leave comments or add projects. The projects can be both your own and other related public projects. If there is no proper existing project, you can create a new one. During your development process, the newly created project will be displayed on your answer with the indicated status of "inactive" . That is to say, other users cannot view details or try it out. Once you deploy this project with success, its status in answer will automatically turn to "active", and those who starred your answer, as well as the request proposer, will receive notice in message center. 
+### How to choose the best answers?
+If you are the request proposer, you have both the right and the duty to choose the best answer. You will receive notice in message center as soon as someone answers your request, or when an inactive project in the answer is successfully deployed. You should go over all the solutions and choose the most satisfying one. If you have any other question or supplementary requirement, you can directly communicate with the responder and improve the answer together. Make sure the best answer is meaningful and truly meet your request, for it will be posted on the most prominent position. 
+
+Guess you've almost known all the functions on _Request_ page now, so why not have a try? 
