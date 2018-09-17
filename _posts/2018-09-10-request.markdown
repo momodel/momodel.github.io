@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Introducing Workspace of Mo
+title: Instructions for _Request_ Page
 author: Rehearsal
 date: 2018-09-12 12:00
 ---
-## Instructions for _Request_ Page
 As the name suggests, _Request_ page is where general users raise requests and others offer solutions.
 ### What can be requests?
 We have no restrictions on users' requests. They may come from unsolved problems which bring about troubles in daily life, tricky business challenges that require certain softwares, missing modules in an AI app development process and so forth. 
