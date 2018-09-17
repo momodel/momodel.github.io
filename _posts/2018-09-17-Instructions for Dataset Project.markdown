@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Introducing Workspace of Mo
-author: Rehearsal
+title: Instruction for Dataset Projects
+author: Lulu
 date: 2018-09-12 12:00
 --- 
 ### What is dataset
