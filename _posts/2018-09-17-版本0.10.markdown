@@ -42,11 +42,10 @@ date: 2018-09-7 12:00
 - New features in Notebook：
   1. IntelliSense and validation functions including parameter viewing and word auto-completion
   2. Auto-process of deployment environment dependency
-  3. Display of operation shortcuts 
-  4. Edit function of project overview 
-  5. DevDocs supported 
-  6. Personal projects viewing in right-sidebar 
-  7. Deployment error record check function
+  3. Edit function of project overview 
+  4. DevDocs supported 
+  5. Personal projects viewing in right-sidebar 
+  6. View error logs about deployment test failures
 
 - New features in Workspace：
   1. Transaction processing function for new project failure
