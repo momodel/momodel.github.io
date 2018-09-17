@@ -36,7 +36,7 @@ date: 2018-09-7 12:00
 - 修改overview文档不同步问题
 
 #### Features：
-- New features in Notebook：
+- New features in Notebook:
    1. IntelliSense and validation functions including parameter viewing and word auto-completion
    2. Auto-process of deployment environment dependency
    3. Edit function of project overview 
@@ -44,13 +44,14 @@ date: 2018-09-7 12:00
    5. Personal projects viewing in right-sidebar 
    6. View error logs about deployment test failures
 
-- New features in Workspace：
+- New features in Workspace:
    1. Transaction processing function for new project failure
    2. Randomly generate related pictures for newly created projects
 
-- New features in Explore Page：
-   1. "Best Developer" Column
-   2. Access for user projects’ preview
+- New main page for explore page:
+   1. Display recommendations for different types of projects and requests
+   2. "Best Developer" Column 
+   3. Access for user projects’ preview
 
 - Information modification of the Tutorial and Forked projects: Make the information in initial code such as the API key corresponds to the current user ID.
 
