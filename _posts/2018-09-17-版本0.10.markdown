@@ -6,7 +6,6 @@ date: 2018-09-7 12:00
 #### 版本0.10
 #### 新功能：
 - Notebook中新增以下功能：
-
    1. 包含参数信息查看、单词补全等功能在内的IntelliSense与验证功能；
    2. 自动处理部署环境的依赖，确保app顺利部署；
    3. 编辑项目overview功能；
@@ -15,12 +14,10 @@ date: 2018-09-7 12:00
    6. 部署测试失败错误提示记录查看
 
 - 工作区页面新增若干功能：
-
   1. 新建项目失败的事务处理功能
   2. 新建项目时随机生成相关配图功能
 
 - 发现页面新增以下功能：
-  
   1. 新增“最佳开发者”栏目
   2. 新增查看用户项目列表入口
 
@@ -38,7 +35,6 @@ date: 2018-09-7 12:00
 - 修改overview文档不同步问题
 
 #### Features：
-
 - New features in Notebook：
   1. IntelliSense and validation functions including parameter viewing and word auto-completion
   2. Auto-process of deployment environment dependency
@@ -58,7 +54,6 @@ date: 2018-09-7 12:00
 - Information modification of the Tutorial and Forked projects: Make the information in initial code such as the API key corresponds to the current user ID.
 
 #### Improvements:
-
 - Design and layout optimization for Explore Page : Display project pictures and smart recommendations
 - Design and layout optimization for Request Page：Display project type introduction and sort filter box
 - Design and layout optimization for right-sidebar in Notebook: different layouts for usage record, starred project list and public project list
