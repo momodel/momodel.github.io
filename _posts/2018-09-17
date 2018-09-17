@@ -1,0 +1,73 @@
+---
+layout: post
+title: 版本1.0
+date: 2018-09-7 12:00
+---
+#### 版本1.0
+#### 新功能：
+- Notebook中新增若干功能：
+
+1. 包括参数信息查看、单词补全等功能在内的智能感知与验证功能；
+2. 自动处理部署环境的依赖，确保app顺利部署；
+3. 操作快捷键显示；
+4. 编辑项目overview功能；
+5. 支持在线文档查看功能；
+6. 右侧栏个人项目显示；
+7. 部署失败错误提示记录查看
+
+- 工作区页面增加关于新建项目的若干功能：
+
+1. 新建项目失败的事务处理功能
+2. 新建项目时随机生成相关配图功能
+
+- 发现页面新增若干功能：
+
+1. 新增项目配图功能
+2. 新增“最佳开发者”栏目
+3. 新增查看用户项目列表入口
+
+- Tutorial和Fork项目的信息修改：初始代码中的API密钥等信息与当前用户ID对应。
+
+#### 改进：
+- 发现页面设计与排版优化：显示图片与智能推荐
+- 需求页面设计与排版优化：显示项目类型简介与智能排序筛选框
+- Notebook中右侧栏设计排版优化：将历史记录、收藏列表与项目列表区分
+- 网站语言统一为英文
+- 增加解决冷启动的默认标签选项
+
+#### 修复
+- 未登录状态能查看所有用户项目的问题
+- 修改overview文档不同步问题
+
+#### Features：
+
+- New features in Notebook：
+1. IntelliSense and validation functions including parameter viewing and word auto-completion
+2. Auto-process of deployment environment dependency
+3. Display of operation shortcuts 
+4. Edit function of project overview 
+5. DevDocs supported 
+6. Personal projects viewing in right-sidebar 
+7. Deployment error history
+
+- New features in Workspace：
+1. Transaction processing function for new project failure
+2. Randomly generate related pictures for newly created projects
+
+- New features in Explore Page：
+1. "Best Developer" Column
+2. Access for user projects’ preview
+
+- Information modification of the Tutorial and Forked projects: The information such as the API key in the initial code corresponds to the current user ID.
+
+#### Improvements:
+
+- Design and layout optimization for Explore Page : Display project pictures and smart recommendations
+- Design and layout optimization for Request Page：Display project type introduction and sort filter box
+- Design and layout optimization for right-sidebar in Notebook: different layouts for usage record, starred project list and public project list
+- Change the website official language from Chinese to English
+- Provide label options for users
+
+#### Bugs Fixed:
+- Permission problem of user project overview without log in
+- Out-of-sync problem of project overview edit
