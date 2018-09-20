@@ -8,7 +8,7 @@ layout: default
       <time datetime="{{page.date | date: date_to_xmlschema}}" itemprop="datePublished" class="post-meta__date date">{{page.date | date: "%F"}}</time> &#8226; <span class="post-meta__tags tags">{{page.tags | join:' '}}</span>
     </div>
     <h1 class="post-title">{{ page.title }}</h1>
-    <h6 class="post-author c"><img src="https://image.flaticon.com/icons/svg/78/78373.svg" style="height: 14px;width: 14px;margin-right: 5px;border-radius: 50%;">{{ page.author }}</h6>
+    <h6 class="post-author c">{{ page.author }}</h6>
   </header>
 
   <section class="post">
