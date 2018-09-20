@@ -4,9 +4,8 @@ title: Instructions for Request Page
 author: Rehearsal
 date: 2018-09-12 12:00
 ---
-As the name suggests, _Request_ page is where general users raise requests and others offer solutions.
 ### What can be requests?
-We have no restrictions on users' requests. They may come from unsolved problems which bring about troubles in daily life, tricky business challenges that require certain softwares, missing modules in an AI app development process and so forth. 
+As the name suggests, _Request_ page is where general users raise requests and others offer solutions. We have no restrictions on users' requests. They may come from unsolved problems which bring about troubles in daily life, tricky business challenges that require certain softwares, missing modules in an AI app development process and so forth. 
 Broadly speaking, requests can also be fancy ideas which currently lack of ready-made apps. For instance, if you want to design an AI app by yourself, you are perfectly clear what it for and how it works, you can raise it as a request and describe all your thoughts behind it. The other day, you may find that someone has already offered you a satisfying answer, isn't that amazing?
 ### How to raise good requests?
 If you would like to raise a request, first and foremost, you need to figure out what you exactly want. Mo offers three types of solution projects in response to the requests: apps, modules and datasets. 
