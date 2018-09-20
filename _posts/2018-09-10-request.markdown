@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Instructions for Request Page
-author: <img src="https://image.flaticon.com/icons/svg/78/78373.svg" style="height: 14px;width: 14px;margin-right: 5px;border-radius: 50%;">Rehearsal
+author: Rehearsal
 date: 2018-09-12 12:00
 ---
 ### What can be requests?
