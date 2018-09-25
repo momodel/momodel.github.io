@@ -4,6 +4,7 @@ title: Instructions for Request Page
 author: "<img src='https://image.flaticon.com/icons/svg/78/78373.svg' style='height: 14px;width: 14px; margin-right: 5px; border-radius: 50%;'>Rehearsal"
 date: 2018-09-12 12:00
 ---
+![Request Page](https://ws4.sinaimg.cn/large/006tNbRwgy1fvm1wullr4j31kw0zfh50.jpg)
 ### What can be requests?
 As the name suggests, _Request_ page is where general users raise requests and others offer solutions. We have no restrictions on users' requests. They may come from unsolved problems which bring about troubles in daily life, tricky business challenges that require certain softwares, missing modules in an AI app development process and so forth. 
 Broadly speaking, requests can also be fancy ideas which currently lack of ready-made apps. For instance, if you want to design an AI app by yourself, you are perfectly clear what it for and how it works, you can raise it as a request and describe all your thoughts behind it. The other day, you may find that someone has already offered you a satisfying answer, isn't that amazing?
