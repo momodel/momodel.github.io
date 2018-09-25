@@ -4,13 +4,13 @@ title: Introducing Workspace of Mo
 author: Magicalion
 date: 2018-09-12 12:00
 ---
-![Workspace](https://ws2.sinaimg.cn/large/006tNbRwgy1fvm2ygkwkkj31kw0zagzz.jpg)
 <br>
 One powerful feature of Mo is an on-line Integrated Developing Environment (IDE), which let you implement the Machine-Learning (ML) based application without install client-side development tools. The "*Workpsace*" section is the primary entry of your coding task in Mo. Now, let's check it out!
 
 -----
 
 ### Workspace - Gathering Ideas in One
+![Workspace](https://ws2.sinaimg.cn/large/006tNbRwgy1fvm2ygkwkkj31kw0zagzz.jpg)
 
 You can see all your working projects in "*Workspace*", also including the number of the project being liked, watched and added to favorite. By click any one of the projects, you can see the detail information further.  Before we get deeper into IDE, let's give you a brief concepts of three project types in Mo. 
 
