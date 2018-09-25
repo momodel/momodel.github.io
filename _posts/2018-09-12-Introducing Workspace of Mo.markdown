@@ -44,6 +44,7 @@ You can also deploy your App project in Mo directly and to test it in our "*Exam
 -----
 
 ### Notebook - Your Coding Playground
+![Notebook](https://ws2.sinaimg.cn/large/006tNbRwgy1fvm36gohr9j31kw0zh7iu.jpg)
 
 When you click "*Go Coding*" button withing a project, you will start the *Notebook* - your coding playground in Mo. Whether it's Dataset/Module/App project, you can all get into the Notebook with it.
 
