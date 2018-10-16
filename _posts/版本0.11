@@ -1,0 +1,24 @@
+#### 版本0.11
+#### 新功能：
+- 手机端应用功能接通：实现在手机端使用已公开发布的应用项目。
+- 从IPFS中下载公开数据集。
+- 任务调度系统：支持CPU/GPU等不同计算资源的选择。
+
+#### 改进：
+- Notebook中右侧栏设计排版优化：可以拉宽以方便查看项目信息。
+- 主页面流程、交互与视觉优化。
+
+#### 修复
+- 忘记密码与修改密码存在的问题。
+
+#### Features：
+- Mobile app connection: users' access to the deployed public apps in mobile.
+- Public dataset downloading from IPFS links.
+- Task scheduling system: supports of different computing resources such as CPU and GPU.
+
+#### Improvements:
+- Design and layout optimization for right-sidebar in Notebook: can be extended for information preview. 
+- UI and interactive design optimization for main pages.
+
+#### Bugs Fixed:
+- Problem of forgetting and changing password.
