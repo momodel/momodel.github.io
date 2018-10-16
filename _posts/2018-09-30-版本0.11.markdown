@@ -26,4 +26,4 @@ date: 2018-09-30 12:00
 - UI and interactive design optimization for main pages.
 
 #### Bugs Fixed:
-- Problem of forgetting and changing password.
+- Problems of forgetting and changing password.
