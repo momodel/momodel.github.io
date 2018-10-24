@@ -27,3 +27,4 @@ date: 2018-09-30 12:00
 
 #### Bugs Fixed:
 - Problems of forgetting and changing password.
+
