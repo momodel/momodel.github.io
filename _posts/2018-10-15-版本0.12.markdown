@@ -14,7 +14,7 @@ date: 2018-10-15 12:00
 #### 改进：
 - 个人中心的页面布局改版。
 - Notebook中模块调用流程改进：增加对模块的导入状态判断。
-- 长运行任务的
+- 长运行任务的查看。
 
 #### Features：
 - Crowdsourcing function for dataset projects.
@@ -26,3 +26,4 @@ date: 2018-10-15 12:00
 #### Improvements:
 - Layout revision of Profile Page.
 - Module importing process in Notebook: newly increased judgment of module importing status.
+- Status check of long jobs.
