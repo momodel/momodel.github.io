@@ -1,0 +1,28 @@
+---
+layout: post
+title: 版本0.12
+date: 2018-10-15 12:00
+---
+#### 版本0.12
+#### 新功能：
+- 数据集项目的众包打标签功能。
+- 基础模型工具集开发。
+- 部署目录层级优化。
+- Tutorial项目的Notebook中新增关于神经网络的.ipynb教学文档。
+- 用户可在个人中心实现外网博客订阅。
+
+#### 改进：
+- 个人中心的页面布局改版。
+- Notebook中模块调用流程改进：增加对模块的导入状态判断。
+- 长运行任务的
+
+#### Features：
+- Crowdsourcing function for dataset projects.
+- Development of basic machine learning modules.
+- Optimization of deployment folder-level.
+- Neural network tutorial in Notebook.
+- Blog subscription from other websites.
+
+#### Improvements:
+- Layout revision of Profile Page.
+- Module importing process in Notebook: newly increased judgment of module importing status.
