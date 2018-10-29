@@ -24,5 +24,6 @@ If you want to share your data with others, you can make a release.We will uploa
 Maybe you are a newbie, you simply want to discover the beauty of data; or you are already an expert, you want to explore the value of data. No matter who you are, you can easily process data, analyze data, and model on our website. Create a module project, introduce your favorite dataset, and start your exploration.
 ### Dataset crowdsourcing
 
-For supervised machine learning, labeled data is required. However, a large amount of data is unlabeled. We provide a full-featured data crowdsourcing function, which can automatically distribute data to others for labeling. When the data has been labeled, we will automatically train your model. Now, create a project and have a try.
+For supervised machine learning, labeled data is required. However, a large amount of data is unlabeled. We provide a full-featured data crowdsourcing function, which can automatically distribute data to others for labeling. When the data has been labeled, we will automatically train your model. Now, create a project and have a try. You can see more details on your [Docs](https://momodel.github.io/docs/#/zh-cn/%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97?id=%E6%95%B0%E6%8D%AE%E9%9B%86%E4%BC%97%E5%8C%85%EF%BC%88crowdsourcing%EF%BC%89%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D).
+ 
 
