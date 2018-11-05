@@ -5,7 +5,7 @@ date: 2018-10-15 12:00
 ---
 #### 版本0.12
 #### 新功能：
-- 数据集项目的众包打标签功能。
+- 数据集项目的众包和主动学习功能。
 - 基础模型工具集开发。
 - 部署目录层级优化。
 - Tutorial项目的Notebook中新增关于神经网络的.ipynb教学文档。
@@ -17,7 +17,7 @@ date: 2018-10-15 12:00
 - 长运行任务的查看。
 
 #### Features：
-- Crowdsourcing function for dataset projects.
+- Crowdsourcing and active learning functions for dataset projects.
 - Development of basic machine learning modules.
 - Optimization of deployment folder-level.
 - Neural network tutorial in Notebook.
