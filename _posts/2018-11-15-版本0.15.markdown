@@ -4,7 +4,7 @@ title: 版本0.15
 date: 2018-11-15 12:00
 ---
 #### 新功能：
-- Notebook中可调用模块的推荐与搜索功能
+- Notebook中可调用模块与数据集的推荐与搜索功能
 - Notebook中新增含有机器学习教学视频和文档的“教室”板块
 
 #### 改进：
@@ -16,7 +16,7 @@ date: 2018-11-15 12:00
 - 修改密码后无法clone项目的问题
 - 新建数据集项目报错问题
 #### Features：
-- Module recommendation and search mechanism in Notebook
+- Recommendation and search function of modules and datasets in Notebook
 - "Classroom" in Notebook: including machine learning video courses and materials
 
 #### Improvements:
