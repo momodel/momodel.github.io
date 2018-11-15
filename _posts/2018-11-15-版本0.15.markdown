@@ -16,7 +16,7 @@ date: 2018-11-15 12:00
 - 修改密码后无法clone项目的问题
 - 新建数据集项目报错问题
 #### Features：
-- Recommendation and search function of modules and datasets in Notebook
+- Recommendation and search mechanism of modules and datasets in Notebook
 - "Classroom" in Notebook: including machine learning video courses and materials
 
 #### Improvements:
