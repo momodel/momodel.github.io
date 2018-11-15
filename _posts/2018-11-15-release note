@@ -1,0 +1,25 @@
+#### 新功能：
+- Notebook中可调用模块的推荐与搜索功能
+- Notebook中新增含有机器学习教学视频和文档的“教室”板块
+
+#### 改进：
+- 标签搜索机制
+- 在回答中新建项目机制
+- 项目详情页面排版优化
+#### 修复:
+- 众包任务计数不准确问题
+- 修改密码后无法clone项目的问题
+- 新建数据集项目报错问题
+#### Features：
+- Module recommendation and search mechanism in Notebook
+- "Classroom" in Notebook: including machine learning video courses and materials
+
+#### Improvements:
+- Tag search mechanism
+- Project creation mechanism in answers
+- Layout of project detail page
+
+#### Bugs fixed:
+- Counting problem of crowdsourcing
+- Project clone problem after changing password
+- Problem of creating dataset projects
