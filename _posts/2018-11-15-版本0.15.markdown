@@ -12,10 +12,12 @@ date: 2018-11-15 12:00
 - 标签搜索机制
 - 在回答中新建项目机制
 - 项目详情页面排版优化
+
 #### 修复:
 - 众包任务计数不准确问题
 - 修改密码后无法clone项目的问题
 - 新建数据集项目报错问题
+
 #### Features：
 - Recommendation and search mechanism of modules and datasets in Notebook
 - "Classroom" in Notebook: including machine learning video courses and materials
