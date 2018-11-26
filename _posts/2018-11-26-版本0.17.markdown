@@ -1,0 +1,40 @@
+---
+layout: post
+title: 版本0.17
+date: 2018-11-26 12:00
+---
+#### 版本0.17
+#### 新功能：
+- 全网站中文版本
+- 应用中心：展示可免费试用的已部署应用
+- Notebook中的多人协作功能
+- 第三方登录功能
+- Fork或新建项目增加进度条提示
+
+#### 改进：
+- Notebook中关于模块和数据集的搜索机制
+- Notebook中的文件自动保存功能
+- 需求分享机制
+- Notebook中的Classroom：新增机器学习相关视频与文档教程；视频播放排版优化
+
+#### 修复：
+- 个人中心收藏项目显示问题
+- 部署成功消息提示问题
+- 标签搜索机制问题
+- 修改邮箱与密码的设置规范问题
+
+#### Features：
+- Chinese Version
+- App Center where users can use deployed apps free of charge
+- Collaboration system in Notebook
+- Third-party account login
+
+#### Improvements:
+- Search mechanism of modules and datasets in Notebook
+- Sharing mechanism of requests
+- New machine learning materials and layout improvement for Classroom in Notebook
+
+#### Bugs fixed:
+- Display problem of starred projects in Profile
+- Double message problem after deploy success
+- The normative problems of password and e-mail changing
