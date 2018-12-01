@@ -1,0 +1,28 @@
+#### 新功能：
+- Notebook中任务功能：新增任务列表，文件定期删除及重启功能。
+- 全局搜索功能。
+
+#### 改进：
+- Notebook中数据集详情页面：取消版本选择，加入数据预览功能。
+- Notebook中新增通用操作介绍文档。
+- 应用中心评分机制改进。
+
+#### 修复：
+- 应用中心功能问题：部分项目无法返回, 未登录状态对应用进行评分报错, 内容搜索问题。
+- 个人中心左侧项目数与右侧展示列表不一致问题。
+- 私有项目有分享入口的问题。
+- 设置中无法更改性别和个性签名的问题。
+
+#### Features：
+- New functions in Notebook: job tab and restart function, regularly remove of job files.
+- Global search mechanism.
+
+#### Improvements:
+- Dataset detail page in Notebook: cancel version control and add preview function.
+- Rating system in App Center.
+
+#### Bugs fixed:
+- App Center: return problem of some apps, rating problem with unlog status, search problem.
+- Profile: inconsistency between project number and displayed list.
+- Sharing access for private projects
+- Settings: problems of changing gender and bio.
