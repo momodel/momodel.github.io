@@ -12,8 +12,8 @@ date: 2018-12-06 12:00
 #### 改进：
 - 数据集功能简化：取消版本选择、IPFS下载和部署功能；增加文件删除、Notebook中的预览功能。
 - 应用功能简化：取消应用详情中的“文档”和“版本”标签，“来源”标签改为“源码”。
+- 需求页面改为话题。
 - 验证邮件样式。
-- 个人中心页面排版。
 
 #### 修复：
 - 应用中心部分应用无法使用问题。
@@ -28,6 +28,7 @@ date: 2018-12-06 12:00
 #### Improvements:
 - Dataset simplification: cancel version control, IPFS downloading and deployment functions; add file delete and preview function in Notebook.
 - App simplification: cancel "Docs" and "Version" tabs and change "Source" tab to "Code".
+- Modification：update Request page to Discussion.
 - Layout of verification e-mail.
 
 #### Bugs fixed:
