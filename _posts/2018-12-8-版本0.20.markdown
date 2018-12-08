@@ -1,0 +1,25 @@
+#### 新增：
+- 邀请奖励机制：邀请用户注册可增加项目额度并获得GPU使用时长。
+- 新建应用和模块项目可选择模版。
+
+#### 改进：
+- 数据集详情页面：对相关项目进行解释。
+- 应用中心应用详情页面：运行界面放到参数页面之前。
+
+#### 修复：
+- 数据集插入异常。
+- 删除已有回答的需求报错。
+- 未登录状态无法运行应用。
+
+#### Features:
+- Reward mechanism: GPU and project quota rewards for inviting friends to register. 
+- App and module templates for project creation.
+
+#### Improvements:
+- Dataset project detail page: explanation for relevant projects.
+- Layout of app detail page in App Center.
+
+#### Bugs fixed:
+- Dataset importing error.
+- Cannot delete requests with answers.
+- Running error of app projects without log in.
