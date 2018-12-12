@@ -1,0 +1,35 @@
+亲爱的用户，感谢您一路相伴，经历了无数个日日夜夜 Mo 终于迎来了1.0版本！
+Mo 的初衷是降低机器学习开发门槛，缩短学习曲线。为了达到这个目标，我们精心准备了新手任务，带领新用户了解 Mo 平台的开发环境和机器学习流程。我们还写了详细的帮助文档，可以让初学者边看边学。在内嵌JupyterLab 的类 IDE 开发环境中，我们也准备了教学视频和文档材料，开发者可以边学边做。
+
+版本1.0
+#### 新功能：
+- 为新注册用户准备新手任务。
+- 邀请好友注册增加GPU和项目额度。
+
+#### 改进：
+- 网页中英文文案调整。
+- 网页界面调整。
+- 模版项目名称、介绍及排序问题。
+
+#### 修复：
+- 二维码下载问题。
+- 第三方登录报错问题。
+
+#### Features:
+- Novice tasks for new users.
+- GPU and project quota bonus for inviting friends.
+
+#### Improvements:
+- Bilingual environment improvement.
+- Web interface improvement.
+- Names, introductions and order of project template.
+
+#### Bugs fixed:
+- QR code downloading problem.
+- Third-party log in problem.
+
+
+目前产品刚刚上线还不够成熟，现阶段仅支持谷歌浏览器在电脑端打开，请多多包涵。有任何意见请随时联系线上工作人员或发邮件给我们：service@momodel.cn 
+
+我们会一直努力，创造意外，发现可能。
+2018 Mo 团队
