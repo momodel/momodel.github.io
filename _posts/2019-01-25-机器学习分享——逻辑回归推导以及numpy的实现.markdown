@@ -192,5 +192,5 @@ $$
 [查看完整代码](http://www.momodel.cn:8899/#/workspace/5bde56be1afd9440a3063354?type=module)
 
 
-——————————————————————————————————
+
 Mo （网址：momodel.cn ）是一个支持 Python 的人工智能建模平台，能帮助你快速开发训练并部署 AI 应用。期待你的加入。
