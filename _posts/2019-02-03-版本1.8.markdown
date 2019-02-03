@@ -1,0 +1,29 @@
+#### 新功能：
+- 训练营：机器学习相关教学视频与配套实战项目，平台使用文档与操作项目。
+- 意见反馈和微信公众号：用户可以点击页面右侧的反馈图标提交对网站的意见建议，点击微信图标查看公众号二维码。
+- Notebook 中创建任务时的参数输入和语法检查功能。
+
+#### 改进：
+- 任务创建成功的邮件通知内容。
+- 项目命名规则：已支持中文项目名。
+- Notebook 中增加对部署和创建任务的提示与引导视频。
+
+#### 修复：
+- 项目计数错误问题。
+- 新手任务部分问题。
+- 全局搜索问题。
+
+#### Features:
+- Classroom: machine learning related teaching videos and supporting practical projects, the platform documentation and guidance projects.
+- Feedback and WeChat QR code access: Users can submit suggestions by clicking the feedback icon on the right side of the page, and click the WeChat icon to view the QR code.
+- Parameter input and grammar checking features during job creation process in Notebook.
+
+#### Improvements:
+- The content of the email notification that the task was created successfully.
+- Project naming rules: Chinese project names are already supported.
+- Hints and guidance videos for deployment and job creation process in Notebook.
+
+#### Bugs fixed:
+- Counting problem of projects.
+- Problems of novice tasks.
+- Global search problem.
