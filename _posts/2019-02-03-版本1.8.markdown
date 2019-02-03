@@ -21,7 +21,7 @@ date: 2019-02-03 12:00
 #### Features:
 - Classroom: machine learning related teaching videos and supporting practical projects, the platform documentation and guidance projects.
 - Feedback and WeChat QR code access: Users can submit suggestions by clicking the feedback icon on the right side of the page, and click the WeChat icon to view the QR code.
-- Parameter input and grammar checking features during job creation process in Notebook.
+- Parameter input and grammar checking functions during job creation process in Notebook.
 
 #### Improvements:
 - The content of the email notification that the task was created successfully.
