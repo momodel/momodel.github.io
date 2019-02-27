@@ -1,0 +1,35 @@
+#### 新功能：
+- 为高阶用户提供“模块开发”专区，通过流程介绍和文档指导用户进行全流程开发。
+- 概念合并：删除model和toolkit的概念，用户通过工作台可以创建的作品类型为项目（部署之后被称为应用）、模块和数据集。
+- 工作台复制项目和模块的功能。
+- 新增“关于我们”页面，入口在页脚处。
+
+#### 改进：
+- 将官方博客移至“关于我们”页面中，删除导航栏入口。
+- 新用户默认进入聊天室，可以接收消息。
+- “训练营”实战教程内容优化。
+- 数据集与模块创建流程优化。
+
+#### 修复：
+- 新手任务部分问题。
+- 删除作品报错问题。
+- 全局搜索问题。
+- “讨论”页面编辑话题问题。
+
+#### Features:
+- Provide "Module Development" zone for high-end users, and guide them through module development process introduction and documentation.
+- Conceptual merging: remove the concepts of models and toolkits; users can create three types of works in workspace: projects (called apps after deployment), modules, and datasets.
+- Copy function of projects and modules in workspace.
+- "About Us" page with entries at page footers.
+
+#### Improvements:
+- Move the official blog to the "About Us" page and delete its navigation bar entry.
+- New users enter the chat room by default and can receive messages.
+- "Classroom" practise tutorial content optimization.
+- Dataset and module creation process optimization.
+
+#### Bugs fixed:
+- Problems of novice tasks.
+- Works deletion problem in workspace.
+- Global search problem.
+- Topic editing problem in "Discussion" page.
