@@ -26,7 +26,7 @@ Mo 是2018年12月12日上线的，为啥会是这天呢，因为在十一月某
 
 ![](https://ws4.sinaimg.cn/large/006tKfTcly1g1ia2bmnlij30cm0l8mz4.jpg)
 
-来自浙大计算机系硕士小姐姐的反馈（小姐姐真的超暖超奈斯，感动到哭唧唧）   
+##### 来自浙大计算机系硕士小姐姐的反馈（小姐姐真的超暖超奈斯，感动到哭唧唧）   
 
 
 上线前一天团队的每个人都异常亢奋彻夜不（ce）眠（shi）：
@@ -81,7 +81,7 @@ Mo 的目标用户是对机器学习感兴趣的软件或算法工程师，为�
 
 ![](https://ws1.sinaimg.cn/large/006tKfTcly1g1ib3x80jqj30u00u0142.jpg)
 
-浙江理工大学数媒艺术系的同学们正在对计算机系的同学进行用户访谈   
+##### 浙江理工大学数媒艺术系的同学们正在对计算机系的同学进行用户访谈   
 
 
 Mo 以每周一次的版本迭代茁壮成长，一个月后已是焕然一新：
@@ -113,23 +113,20 @@ Mo 以每周一次的版本迭代茁壮成长，一个月后已是焕然一新�
 
 
 
-走进校园——浙江理工大学讲座 “从 Python 到机器学习实战”
+##### 走进校园——浙江理工大学讲座 “从 Python 到机器学习实战”
 
 ![](https://ws1.sinaimg.cn/large/006tKfTcly1g1iafn5opgj31460u0136.jpg)
 
 
-Mo 人工智能俱乐部开发者沙龙
+##### Mo 人工智能俱乐部开发者沙龙
 
 ![](https://ws2.sinaimg.cn/large/006tKfTcly1g1iauwyty2j31aa0u0wu7.jpg)
 
-Mo 机器学习学术交流会
+##### Mo 机器学习学术交流会
 
 ![](https://ws3.sinaimg.cn/large/006tKfTcly1g1iahm9my6j30u90u0aip.jpg)
 
-
-
-
-走进社团——与浙江大学微软俱乐部成员进行讲座交流
+##### 走进社团——与浙江大学微软俱乐部成员进行讲座交流
 
 ![](https://ws3.sinaimg.cn/large/006tKfTcly1g1iai4cxwrj30qc0zadmh.jpg)
 
