@@ -1,0 +1,41 @@
+---
+layout: post
+title: 版本1.13
+date: 2019-03-24 12:00
+---
+#### 新功能：
+- JupyterLab 升级更新
+- 显示 job 排队序列
+- Notebook 中 csv 格式文件编辑功能
+- Notebook 增加工具列，让平台的模块可以被呼叫使用。
+
+#### 改进：
+
+- 应用中心项目展示改为轮播图形式
+- 标签搜索机制
+- 首页布局与内容修改
+- Notebook 图标与引导更新
+- 查看 job 日志响应较慢
+
+#### 修复：
+- Notebook 左侧工具栏显示问题
+- Notebook 中数据集编辑问题
+- 课程详情页面介绍覆盖聊天室文字
+
+#### Features:
+- JupyterLab upgrade
+- Display of job queue sequence
+- CSV format file editing function in Notebook
+- Notebook toolbar for calling public modules on platform.
+
+#### Improvements:
+- Carousel display of works in App Center.
+- Tag search mechanism optimization.
+- Homepage layout and content modification.
+- Notebook icon and guidance update.
+- Slow response of job log preview.
+
+#### Bugs fixed:
+- Display problem of left-sidebar in Notebook.
+- Dataset editing problem in Notebook.
+- Course detail page covers the chatroom text.
