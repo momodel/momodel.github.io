@@ -7,9 +7,11 @@ Mo 是2018年12月12日上线的，为啥会是这天呢，因为在十一月某
 老板笑眯眯地看着大家：“我在想我们开发了这么久找一天上线吧，12月12号怎么样？“
 
 当时全场的内心 OS 都是：我是谁？我在哪？我在干什么？？
+
 ![](https://ws2.sinaimg.cn/large/006tKfTcly1g1i9vh8j5dj30fg0agmy3.jpg)
 
 但又都是很激动的：
+
 ![](https://ws2.sinaimg.cn/large/006tKfTcly1g1ia15ww6xj309s090aaa.jpg)
 
 有了目标，大家伙也干劲满满
@@ -17,14 +19,17 @@ Mo 是2018年12月12日上线的，为啥会是这天呢，因为在十一月某
 于是
 
 我们迎来了一个充实~~到怀疑人生~~的11月：
+
 ![](https://ws4.sinaimg.cn/large/006tKfTcly1g1ia1jj9uvj30a409w74v.jpg)
 
 但是！人生嘛！挨了巴掌，当然也会吃到蜜枣！在废寝忘食修了最坑的 bug 后，我们听见最美的彩虹屁：
+
 ![](https://ws4.sinaimg.cn/large/006tKfTcly1g1ia2bmnlij30cm0l8mz4.jpg)
 来自浙大计算机系硕士小姐姐的反馈（小姐姐真的超暖超奈斯，感动到哭唧唧）
 
 
 上线前一天团队的每个人都异常亢奋彻夜不（ce）眠（shi）：
+
 ![](https://ws1.sinaimg.cn/large/006tKfTcly1g1iabnq7wyj309m08it95.jpg)
 
 
@@ -112,15 +117,18 @@ Part 2 入世
 
 
 Mo 人工智能俱乐部开发者沙龙
+
 ![](https://ws2.sinaimg.cn/large/006tKfTcly1g1iauwyty2j31aa0u0wu7.jpg)
 
 Mo 机器学习学术交流会
+
 ![](https://ws3.sinaimg.cn/large/006tKfTcly1g1iahm9my6j30u90u0aip.jpg)
 
 
 
 
 走进社团——与浙江大学微软俱乐部成员进行讲座交流
+
 ![](https://ws3.sinaimg.cn/large/006tKfTcly1g1iai4cxwrj30qc0zadmh.jpg)
 
 
@@ -279,4 +287,4 @@ Welcome to the Mo world of Machine Learning, there are difficulties, but you're 
 
 ![](https://ws2.sinaimg.cn/large/006tKfTcgy1g1g8uip6c7j30uy0f0tbu.jpg)
 
-Mo （网址：http://momodel.cn）是一个支持 Python 的人工智能建模平台，能帮助你快速开发训练并部署 AI 应用。
+Mo （网址：momodel.cn） 是一个支持 Python 的人工智能建模平台，能帮助你快速开发训练并部署 AI 应用。
