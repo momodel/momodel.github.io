@@ -4,7 +4,7 @@ title: 版本1.15
 date: 2019-04-04 12:00
 ---
 #### 新功能：
-- 捕获代码运行异常结果，提供转跳到 Stack Overflow 和 CSDN 的搜索入口。
+- Notebook 中可捕获代码运行异常结果，提供转跳到 Stack Overflow 和 CSDN 的搜索入口。
 - Notebook 中搜索与分享代码块功能。
 - Notebook 中超参数调整与图像数据增强功能。
 
