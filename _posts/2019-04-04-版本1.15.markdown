@@ -1,0 +1,34 @@
+---
+layout: post
+title: 版本1.15
+date: 2019-04-04 12:00
+---
+#### 新功能：
+- 捕获代码运行异常结果，提供转跳到 Stack Overflow 和 CSDN 的搜索入口。
+- Notebook 中搜索与分享代码块功能。
+- Notebook 中超参数调整与图像数据增强功能。
+
+#### 改进：
+- 首页、发现和注册页面加速。
+- 首页文案与交互方式修改。
+- 新手任务修改
+
+#### 修复：
+- Notebook 升级之后影响对其他页面前端显示的影响。
+- Notebook 中下载功能失效。
+- API docs 无法保存偏好设置。
+
+#### Features:
+- Capturing code running abnormal results, providing search entries of Stack Overflow and CSDN.
+- Search and share code cells in Notebook.
+- Hyper-parameter adjustment and data augmentation in Notebook.
+
+#### Improvements:
+- Acceleration of homepage, Explore and registration page.
+- Homepage content and interactive mode modifications.
+- Novice task modifications.
+
+#### Bugs fixed:
+- Page display problems caused by Notebook upgrade.
+- Invalid download function in Notebook.
+- API docs preference cannot be saved.
