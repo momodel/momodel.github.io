@@ -1,0 +1,30 @@
+---
+layout: post
+title: 版本1.14
+date: 2019-04-04 12:00
+---
+#### 新功能：
+- Notebook 中超参数自动优化功能。
+- 支持更新 JupyterLab 的相关功能。
+
+#### 改进：
+- 首页内容与结构修改。
+- 训练营交互方式优化。
+- Notebook 中的相同图标进行区分。
+
+#### 修复：
+- 训练营介绍页面遮挡聊天室。
+- Notebook 中已导入数据集无法编辑问题。
+
+#### Features:
+- Hyper-parameter auto-optimization in Notebook.
+- Support for updating related features of JupyterLab.
+
+#### Improvements:
+- Homepage content and structure modifications.
+- Classroom interactive mode optimization.
+- Distinguishing the similar icons in Notebook.
+
+#### Bugs fixed:
+- Classroom introduction page covers the chatroom.
+- The imported datasets in Notebook cannot be edited.
