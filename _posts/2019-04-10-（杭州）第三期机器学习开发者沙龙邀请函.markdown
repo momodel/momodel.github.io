@@ -53,7 +53,7 @@ date: 2019-04-10 12:00
  1. 线性代数回顾 
  2. 多变量线性回归
 
-专题系列计划（每周更新）
+##### 专题系列计划（每周更新）
 ![]( https://ws4.sinaimg.cn/large/006tNc79ly1g1vc0vvtowj30ii0sitbk.jpg)
 
 #### Part III
