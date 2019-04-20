@@ -1,0 +1,27 @@
+#### 新功能：
+- 训练营开始学习显示公众号二维码。
+
+#### 改进：
+- 训练营机器学习课程内容更新与补充。
+- 手机端分享页面优化。
+- Notebook 中 cell 的工具条和代码部分进行区分。
+- Notebook 中代码增强增加了扭曲、倾斜、擦除、透视变形等功能。
+
+#### 修复：
+- 点击不同的数据集作品概览不会刷新。
+- 通过发现到详情页点击浏览器返回无效。
+- 文件管理页面问题。
+
+#### Features:
+- Display of Wechat QR code in Classroom.
+
+#### Improvements:
+- Machine learning course content update in Classroom.
+- H5 sharing page optimization.
+- Distinguish the toolbar and code area of cells in Notebook.
+- Add new features of code enhancement in Notebook, such as distortion, skew, erase, perspective and distortion.
+
+#### Bugs fixed:
+- Refreshing problem of dataset overview.
+- Return problem of work detail pages.
+- File management page problem.
