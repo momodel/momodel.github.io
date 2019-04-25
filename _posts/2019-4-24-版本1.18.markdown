@@ -1,3 +1,8 @@
+---
+layout: post
+title: 版本1.18
+date: 2019-04-24 12:00
+---
 #### 新功能：
 - Notebook 多人协作功能
 - Kaggle 数据集查询与导入
