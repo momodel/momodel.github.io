@@ -1,0 +1,29 @@
+#### 新功能：
+- Notebook 多人协作功能
+- Kaggle 数据集查询与导入
+- Notebook 左侧工具栏新增复制粘贴快捷键操作
+
+#### 改进：
+- Notebook 中代码块分享、超参数调整界面优化
+- 训练营机器学习课程补充与更正
+- 应用中心热门标签搜索机制
+
+#### 修复：
+- 非作者可编辑项目概览
+- 项目公开时未自动进行 commit 操作
+- 测试文件数据未正常保存
+
+#### Features:
+- Multi-person collaboration in Notebook.
+- Search and insert datasets from Kaggle.  
+- Copy and paste shortcuts in Notebook left-sidebar.
+
+#### Improvements:
+- Interface optimization of code cell sharing and hyper-parameter adjustment in Notebook.
+- Machine Learning Course supplements and corrections in Classroom.
+- Tag search mechanism in App Center.
+
+#### Bugs fixed:
+- Editing problem of project overview.
+- Public work problem.
+- Test files in deployment process are not saved properly.
