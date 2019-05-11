@@ -1,0 +1,30 @@
+---
+layout: post
+title: 版本1.19
+date: 2019-05-08 12:00
+---
+#### 新功能：
+- 停止任务排队功能
+
+#### 改进：
+- Kaggle 数据集修改
+- Notebook 中小贴士更新
+- 增加网站负载能力
+
+#### 修复：
+- 讨论区未登录状态无法查看评论问题
+- 数据集挂载问题
+- 全局搜索问题
+
+#### Features:
+- Stop job queuing mechanism.
+
+#### Improvements:
+- Kaggle dataset modification.
+- Tips Update in Notebook.
+- Website load capacity improvement.
+
+#### Bugs fixed:
+- Comments preview problem in Discussion.
+- Dataset mount problem.
+- Global search problem.
