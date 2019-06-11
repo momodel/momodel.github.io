@@ -4,22 +4,22 @@ title: 版本1.20
 date: 2019-05-22 12:00
 ---
 
-### 改进：
+#### 改进：
 - 多人协作新增部署同步功能
 - 实战项目中“插入答案”交互修改
 - 训练营平台功能教程改进
 
-### 修复：
+#### 修复：
 - 机器学习课程中部分错误
 - 模块开发专区帮助文档图片无法显示
 - 应用中心评分机制问题
 
-### Improvements:
+#### Improvements:
 - Deployment synchronization in multi-person collaboration. 
 - Modification of "Insert answer" interaction in Practice of Classroom.
 - Platform guidance of Classroom.
 
-### Bugs fixed:
+#### Bugs fixed:
 - Errors in Machine Learning course of Classroom.
 - Image display problem in Module Develop page.
 - Rate mechanism in App Center.
