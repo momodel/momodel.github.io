@@ -5,7 +5,7 @@ date: 2019-05-22 12:00
 ---
 
 ### 改进：
-- 多人协作新增部署功能同步
+- 多人协作新增部署同步功能
 - 实战项目中“插入答案”交互修改
 - 训练营平台功能教程改进
 
@@ -15,7 +15,7 @@ date: 2019-05-22 12:00
 - 应用中心评分机制问题
 
 ### Improvements:
-- Deployment function synchronization in multi-person collaboration. 
+- Deployment synchronization in multi-person collaboration. 
 - Modification of "Insert answer" interaction in Practice of Classroom.
 - Platform guidance of Classroom.
 
