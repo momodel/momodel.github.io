@@ -3,22 +3,22 @@ layout: post
 title: 版本1.22
 date: 2019-06-05 12:00
 ---
-### 改进：
+#### 改进：
 - 未登录用户操作时页面跳转
 - 数据集详情页优化
 - 训练过程可视化界面优化
 
-### 修复：
+#### 修复：
 - 注册页面邀请码填写问题
 - 数据集上传和下载失败问题
 - 已公开代码块无法被搜索问题
 
-### Improvements：
+#### Improvements：
 - Page jump mechanism of log-out state.
 - Dataset detail page optimization.
 - Visual interface optimization during training process.
 
-### Bugs fixed：
+#### Bugs fixed：
 - Invitation code problem in registration page.
 - Dataset uploading and downloading problem.
 - Searching problem of public code blocks.
