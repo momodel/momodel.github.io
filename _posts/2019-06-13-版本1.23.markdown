@@ -1,0 +1,23 @@
+---
+layout: post
+title: 版本1.23
+date: 2019-06-12 12:00
+---
+
+#### 改进：
+- Notebook 和工作台 job 状态同步
+- 工作台项目删除机制
+
+#### 修复：
+- 数据集关联项目无法查看问题
+- Notebook 中激活邮箱页面跳转问题
+- 项目下载失败问题
+
+#### Improvements:
+- Job synchronization in Notebook and Workspace.
+- Project deleting mechanism in Workspace.
+
+#### Bugs fixed:
+- Viewing problem of dataset related projects.
+- Page jump mechanism when activate mailbox in Notebook.
+- Project downloading problem.
