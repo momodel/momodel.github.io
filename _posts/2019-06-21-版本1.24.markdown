@@ -5,19 +5,20 @@ date: 2019-06-21 12:00
 ---
 
 #### 改进：
+- 数据集相关页面结构与交互优化
 - 工作台搜索功能
 - 应用中心输出解释
-- 数据集功能结构和交互优化
+
 
 #### 修复：
 - 用户信息修改问题
 - 新手任务部分错误
 
 #### Improvements:
-- Search mechanism in Workspace
-- Output dynamic interpretation in App Center
-- Dataset structure and interaction optimization
+- Structure and interaction optimization of dataset related pages.
+- Search mechanism in Workspace.
+- Output dynamic interpretation in App Center.
 
 #### Bugs fixed:
-- Information modification problem in Settings
-- Errors in Novice Tasks of Workspace
+- Information modification problem in Settings.
+- Errors in Novice Tasks of Workspace.
