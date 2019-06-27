@@ -57,6 +57,6 @@ DARTS: Differentiable Architecture Search
 P.S. 如果你有学术热情或对某个专题有独到见解，我们欢迎你给公众号发消息留言，审核通过就能成为分享嘉宾哦～
 
 --------------------------------------------------------------------------------
-![](https://ws2.sinaimg.cn/large/006tKfTcgy1g1g8uip6c7j30uy0f0tbu.jpg)
+![](https://imgbed.momodel.cn/5d1483c997c32cc4678fa64e.jpg)
 
 Mo （网址：momodel.cn） 是一个支持 Python 的人工智能建模平台，能帮助你快速开发训练并部署 AI 应用。

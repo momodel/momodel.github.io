@@ -13,11 +13,11 @@ date: 2019-03-08 12:00
 
 假设，你有这样一个网络层
 
-![](https://ws2.sinaimg.cn/large/006tNc79ly1fz7i2ubhe7j30os0jsmyb.jpg)
+![](https://imgbed.momodel.cn/5d1483e997c32cc4678fa676.jpg)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190121185510997.png)
 现在对他们赋上初值，如下图：
 
-　　![](https://ws3.sinaimg.cn/large/006tNc79ly1fz7hd0r22lj30q40kgdh9.jpg)
+　　![](https://imgbed.momodel.cn/5d1483e897c32cc4678fa674.jpg)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190121185715879.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDAxNTkwNw==,size_16,color_FFFFFF,t_70)
 　　
 　　
@@ -44,7 +44,7 @@ date: 2019-03-08 12:00
 ![权职更新](https://img-blog.csdnimg.cn/2019012117224878.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDAxNTkwNw==,size_16,color_FFFFFF,t_70)
 下面的图可以更直观的看清楚误差是怎样反向传播的
 
-![](https://ws1.sinaimg.cn/large/006tNc79ly1fz7hnr30ccj30t80e8q3y.jpg)
+![](https://imgbed.momodel.cn/5d1483e797c32cc4678fa673.jpg)
 
 我们分别计算每个式子的值：
 ![三个算式](https://img-blog.csdnimg.cn/20190121172439290.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDAxNTkwNw==,size_16,color_FFFFFF,t_70)
@@ -57,7 +57,7 @@ date: 2019-03-08 12:00
 #### 3.隐含层---->隐含层的权值更新：
 ![](https://img-blog.csdnimg.cn/2019012118434112.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDAxNTkwNw==,size_16,color_FFFFFF,t_70)
 
-![](https://ws1.sinaimg.cn/large/006tNc79ly1fz7hucfxlij30sc0neq4n.jpg)
+![](https://imgbed.momodel.cn/5d1483e997c32cc4678fa675.jpg)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190121184443446.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDAxNTkwNw==,size_16,color_FFFFFF,t_70)
 同理,计算出
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190121184650210.png)

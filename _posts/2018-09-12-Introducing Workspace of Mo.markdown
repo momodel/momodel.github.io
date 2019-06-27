@@ -10,7 +10,7 @@ One powerful feature of Mo is an on-line Integrated Developing Environment (IDE)
 -----
 
 ### Workspace - Gathering Ideas in One
-![Workspace](https://ws2.sinaimg.cn/large/006tNbRwgy1fvm2ygkwkkj31kw0zagzz.jpg)
+![Workspace](https://imgbed.momodel.cn/5d1483e197c32cc4678fa66d.jpg)
 
 You can see all your working projects in "*Workspace*", also including the number of the project being liked, watched and added to favorite. By click any one of the projects, you can see the detail information further.  Before we get deeper into IDE, let's give you a brief concepts of three project types in Mo. 
 
@@ -44,7 +44,7 @@ You can also deploy your App project in Mo directly and to test it in our "*Exam
 -----
 
 ### Notebook - Your Coding Playground
-![Notebook](https://ws2.sinaimg.cn/large/006tNbRwgy1fvm36gohr9j31kw0zh7iu.jpg)
+![Notebook](https://imgbed.momodel.cn/5d1483e297c32cc4678fa66e.jpg)
 
 When you click "*Go Coding*" button withing a project, you will start the *Notebook* - your coding playground in Mo. Whether it's Dataset/Module/App project, you can all get into the Notebook with it.
 

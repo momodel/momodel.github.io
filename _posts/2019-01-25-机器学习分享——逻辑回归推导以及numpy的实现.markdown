@@ -27,7 +27,7 @@ $$
 
 可以发现，经过`sigmoid`函数转换后, 输出值是在`[0, 1]`之间，可以认为输出是概率，下面就来详细的推导：
 
-![](https://ws2.sinaimg.cn/large/006tNbRwly1fyl3hva4dtj30lh0d0taz.jpg)
+![](https://imgbed.momodel.cn/5d1483d397c32cc4678fa65b.jpg)
 
 ### 推导
 
@@ -171,23 +171,23 @@ $$
 
 ### 以下是实现的一些截图
 
-![](https://ws2.sinaimg.cn/large/006tNbRwly1fyl4q5h2fqj31wi0o8gps.jpg)
+![](https://imgbed.momodel.cn/5d1483d497c32cc4678fa65e.jpg)
 
 #### 优化我们采用梯度下降算法
 
-![](https://ws2.sinaimg.cn/large/006tNbRwly1fyl4r1ihq6j31wi0tgwje.jpg)
+![](https://imgbed.momodel.cn/5d1483d597c32cc4678fa65f.jpg)
 
 #### 交叉熵损失函数
 
-![](https://ws1.sinaimg.cn/large/006tNbRwly1fyl4rkv6eaj31ps0u0ahw.jpg)
+![](https://imgbed.momodel.cn/5d1483d397c32cc4678fa65c.jpg)
 
 #### 最终效果
 
-![](https://ws2.sinaimg.cn/large/006tNbRwly1fyl4sh5k6tj31wo0ps7c3.jpg)
+![](https://imgbed.momodel.cn/5d1483d297c32cc4678fa65a.jpg)
 
-![](https://ws4.sinaimg.cn/large/006tNbRwly1fyl4spj22oj30zm0jq788.jpg)
+![](https://imgbed.momodel.cn/5d1483d197c32cc4678fa659.jpg)
 
-![](https://ws2.sinaimg.cn/large/006tNbRwly1fyl4t4hr6gj311e0kgtbq.jpg)
+![](https://imgbed.momodel.cn/5d1483d497c32cc4678fa65d.jpg)
 
 [查看完整代码](http://www.momodel.cn:8899/#/workspace/5bde56be1afd9440a3063354?type=module)
 

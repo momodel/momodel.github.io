@@ -25,7 +25,7 @@ raw_data_13 = pd.read_csv(loc + '2017-18.csv')
 raw_data_1.head()
 ```
 
-![](https://ws2.sinaimg.cn/large/006tKfTcgy1g1qfvdpxvpj31vs09qmzi.jpg)
+![](https://imgbed.momodel.cn/5d1483db97c32cc4678fa666.jpg)
 
 我们看到包括数据包括 Date（比赛的时间），Hometeam（主场队伍名），Awayteam（客场队伍名），FTHG（主场球队全场进球数），HTHG（主场球队半场进球数），FTR（全场比赛结果）等等。更多数据的介绍可以参考[这里](http://football-data.co.uk/notes.txt)。
 
@@ -106,7 +106,7 @@ playing_statistics_13 = get_gss(playing_statistics_13)
 
 例如，我们看376行， 截止到这一场比赛之前，本赛季，主场曼联队的净胜球数是34， 客场查尔顿队的净胜球数是-10。
 
-![](https://ws3.sinaimg.cn/large/006tKfTcgy1g1qk6f0g33j30r409smy9.jpg)
+![](https://imgbed.momodel.cn/5d1483da97c32cc4678fa665.jpg)
 
 
 我们还可以统计整个赛季主客场队伍截止到当前比赛周的累计得分。一场比赛胜利积3分， 平局积1分，输了积0分。我们根据本赛季本周之前的比赛结果来统计这个值。
@@ -184,7 +184,7 @@ playing_statistics_13 = get_agg_points(playing_statistics_13)
 
 我们再看376行，截止到这一场比赛，本赛季，曼联队一共积了80分， 查尔顿队积了47分。
 
-![](https://ws1.sinaimg.cn/large/006tKfTcgy1g1qk88gkl4j30v809wabb.jpg)
+![](https://imgbed.momodel.cn/5d1483d997c32cc4678fa663.jpg)
 
 前面我们构造的特征反映了一只队伍本赛季的历史总表现，我们看看队伍在最近三场比赛的表现。我们用 HM1 代表主场球队上一次比赛的输赢，AM1 代表客场球队上一次比赛是输赢。同理，HM2 AM2 就是上上次比赛的输赢， HM3 AM3 就是上上上次比赛的输赢。
 
@@ -250,7 +250,7 @@ playing_statistics_13 = add_form_df(playing_statistics_13)
 
 
 
-![](https://ws4.sinaimg.cn/large/006tKfTcgy1g1qkag2aqij319s09u75v.jpg)
+![](https://imgbed.momodel.cn/5d1483d997c32cc4678fa664.jpg)
 
 然后我们把比赛周的信息也放在里面，也就是这一场比赛发生在第几个比赛周。
 
@@ -288,7 +288,7 @@ for col in cols:
     playing_stat[col] = playing_stat[col] / playing_stat.MW
 ```
 
-![](https://ws1.sinaimg.cn/large/006tKfTcgy1g1qkd32ew8j31jm09e0v5.jpg)
+![](https://imgbed.momodel.cn/5d1483dc97c32cc4678fa667.jpg)
 
 前面我们根据初始的特征构造出了很多的特征。这其中有一部分是中间的特征，我们把这些中间特征抛弃掉抛弃掉。因为前三周的比赛，每个队的历史胜负信息不足，我们弃掉前三周的数据。
 

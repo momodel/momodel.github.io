@@ -23,7 +23,7 @@ Mo 人工智能俱乐部 正式向感兴趣的小伙伴们发出诚挚的邀请�
 #### 活动形式
 团队专题主讲人组织大家一起学习吴恩达的视频教程，边看视频边记笔记，每一节视频后，进行讨论、分享、推导公式以加深理解。
 #### 机器学习系列课程计划（每周更新）：
-![](https://ws2.sinaimg.cn/large/006tNc79ly1g26s7o5tlmj30iw0qyaci.jpg)
+![](https://imgbed.momodel.cn/5d1483eb97c32cc4678fa678.jpg)
 #### 活动亮点
 **机器学习的系统性研习**：Mo 团队将深入浅出的为大家阐明复杂深奥的机器学习原理，打破认知壁垒，营造轻松愉悦的集体学习氛围。
 
@@ -50,7 +50,7 @@ Mo 人工智能俱乐部是由 AI 在线建模平台（网址：momodel.cn）的
 #### 报名方式
 关注微信公众号 MomodelAI，回复 姓名+学校或单位+联系方式 进行报名，审核通过后会收到确认消息。
 
-![](https://ws1.sinaimg.cn/large/006tNc79gy1g1wdsw5ijfj30ws0g2juj.jpg)
+![](https://imgbed.momodel.cn/5d1483e597c32cc4678fa670.jpg)
 
 
   [1]: http://www.momodel.cn:8899/classroom/class?id=5c5696191afd94720cc94533&type=video

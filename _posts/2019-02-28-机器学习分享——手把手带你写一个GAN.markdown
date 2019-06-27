@@ -28,7 +28,7 @@ GAN的基本原理其实非常简单，这里以生成图片为例进行说明�
 
 `G`是一个生成图片的网络, 它接收一个随机的噪声(随机生成的图片)`z`, 通过这个噪声生成图片，记做`G(z)`. `D`是一个判别网络, 判别一张图片是不是“真实的”。它的输入参数是`x`, `x`代表一张图片，输出`D(x)`代表`x`为真实图片的概率，如果为`>0.5`，就代表是真实(相似)的图片，反之，就代表不是真实的图片。
 
-![图片来自于知乎](https://ws1.sinaimg.cn/large/006tNc79ly1fz8jnj9xinj30k009274k.jpg)
+![图片来自于知乎](https://imgbed.momodel.cn/5d1483dd97c32cc4678fa668.jpg)
 
 我们通过一个假产品宣传的例子来理解:
 
@@ -85,7 +85,7 @@ def show_images(images):
         plt.imshow(img.reshape([sqrtimg,sqrtimg]))
 ```
 
-![运行截图](https://ws4.sinaimg.cn/large/006tNc79ly1fz8knh2oi0j30c80c00ts.jpg)
+![运行截图](https://imgbed.momodel.cn/5d1483df97c32cc4678fa66b.jpg)
 
 这里有一个小问题, 如果是在`Notebook`中执行, 记得加上这句话, 否则需要执行两次才会绘制.
 
@@ -251,13 +251,13 @@ def run_a_gan(sess, G_train_step, G_loss, D_train_step, D_loss, G_extra_step, D_
 
 刚开始的时候, 还没学会怎么模仿：
 
-![](https://ws3.sinaimg.cn/large/006tNc79ly1fz8mvvc3p4j30cc0c0gq1.jpg)
+![](https://imgbed.momodel.cn/5d1483df97c32cc4678fa66a.jpg)
 
 经过学习改进：
 
-![](https://ws2.sinaimg.cn/large/006tNc79ly1fz8mwmk1jpj30cc0bujtb.jpg)
+![](https://imgbed.momodel.cn/5d1483e097c32cc4678fa66c.jpg)
 
-![](https://ws3.sinaimg.cn/large/006tNc79ly1fz8mx7d1zzj30cg0bw40e.jpg)
+![](https://imgbed.momodel.cn/5d1483de97c32cc4678fa669.jpg)
 
 
 ### 项目地址

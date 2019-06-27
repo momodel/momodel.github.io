@@ -54,7 +54,7 @@ date: 2019-04-10 12:00
  2. 多变量线性回归
 
 ##### 专题系列计划（每周更新）
-![]( https://ws4.sinaimg.cn/large/006tNc79ly1g1vc0vvtowj30ii0sitbk.jpg)
+![]( https://imgbed.momodel.cn/5d1483e497c32cc4678fa66f.jpg)
 
 #### Part III
 ##### 主题：BlockFL
@@ -84,7 +84,7 @@ date: 2019-04-10 12:00
 
 ### 报名方式
 关注微信公众号 **MomodelAI**，回复 **姓名+学校或单位+联系方式** 进行报名，审核通过后会收到确认消息。
-![]( https://ws1.sinaimg.cn/large/006tNc79gy1g1wdsw5ijfj30ws0g2juj.jpg)
+![]( https://imgbed.momodel.cn/5d1483e597c32cc4678fa670.jpg)
 
 
   [1]: http://www.momodel.cn:8899/classroom/class?id=5c5696191afd94720cc94533&type=video
