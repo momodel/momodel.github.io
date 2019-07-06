@@ -1,0 +1,31 @@
+---
+layout: post
+title: 版本1.26
+date: 2019-07-05 12:00
+---
+
+#### 新功能:
+- 训练营直播课程功能
+- 训练营官方课程新增 Python 教程
+
+#### 改进：
+- 直播项目计数问题
+- 数据集上传文件页面优化
+
+#### 修复：
+- 私有项目改为公开时报错问题
+- 点击讨论区话题回复时页面跳转问题
+- 模块部署成功提示中项目名称不一致问题
+
+#### Features:
+- Live courses in Classroom.
+- Python Tutorial in Official Courses in Classroom.
+
+#### Improvements:
+- Counting problem of live courses.
+- Dataset file-uploading page optimization.
+
+#### Bugs fixed:
+- Status change problem of projects.
+- Page jump problem of topic comments in Discussion.
+- Inconsistent project name in module deployment success prompt.
