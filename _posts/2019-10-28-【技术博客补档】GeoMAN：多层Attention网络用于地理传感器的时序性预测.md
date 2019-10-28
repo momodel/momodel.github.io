@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GeoMAN：多层Attention网络用于地理传感器的时序性预测
+title: 【技术博客补档】GeoMAN：多层Attention网络用于地理传感器的时序性预测
 date: 2019-10-28 12:00
 ---
 作者： 魏祖昌
