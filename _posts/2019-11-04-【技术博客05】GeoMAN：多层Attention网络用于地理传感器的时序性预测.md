@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 【技术博客补档】GeoMAN：多层Attention网络用于地理传感器的时序性预测
-date: 2019-10-28 12:00
+title: 【技术博客05】GeoMAN：多层Attention网络用于地理传感器的时序性预测
+date: 2019-11-04 12:00
 ---
 作者： 魏祖昌
 
@@ -30,15 +30,15 @@ spatial attention和global spatial attention组成）来捕获不同传感器时
 
 ![framework.png](https://imgbed.momodel.cn/201919232102-W.png)
 
-图2:该论文的框架。**Attn**: attention. **Local**: local spatial attention. **Global**: global spatial attention. **Concat**: concatenation层. ![image.png](https://imgbed.momodel.cn/201919232104-Z.png): 在t时刻的predicting value. **ct**: 在t时刻的context vectors.  **h0**: encoder的初始值.
+图2:该论文的框架。**Attn**: attention. **Local**: local spatial attention. **Global**: global spatial attention. **Concat**: concatenation层. $\hat{y}^i_t$: 在t时刻的predicting value. **ct**: 在t时刻的context vectors.  **h0**: encoder的初始值.
 
 ### 2.1 Spatial Attention
 #### 2.1.1 Local Spatial Attention
-该论文是首次引入了local spatial attention机制。对于某个传感器来说，其的局部时间序列之间存在复杂的相关性。比如，一个空气质量监测站报告不同物质的时间序列，如PM2.5(特定物质)，NO和SO2。实际上，PM2.5浓度通常受其他时间序列的影响，包括其他空气污染物和当地的天气状况。为了解决这个问题，给定第i个传感器的第k个局部特征向量(即，![image.png](https://imgbed.momodel.cn/201919232108-W.png)，我们利用attention机制自适应地捕捉目标序列与每个局部特征之间的动态相关性，其公式为:
+该论文是首次引入了local spatial attention机制。对于某个传感器来说，其的局部时间序列之间存在复杂的相关性。比如，一个空气质量监测站报告不同物质的时间序列，如PM2.5(特定物质)，NO和SO2。实际上，PM2.5浓度通常受其他时间序列的影响，包括其他空气污染物和当地的天气状况。为了解决这个问题，给定第i个传感器的第k个局部特征向量(即$x^{i,k}$)，我们利用attention机制自适应地捕捉目标序列与每个局部特征之间的动态相关性，其公式为:
 
 ![image.png](https://imgbed.momodel.cn/201919232108-v.png)
 
-其中[ ·; ·]是合并操作，![image.png](https://imgbed.momodel.cn/201919232108-J.png)是学习来的参数。attention的权重的局部特征值是由输入的局部特征和encoder层中的历史状态（即![image.png](https://imgbed.momodel.cn/201919232113-k.png), ![image.png](https://imgbed.momodel.cn/201919232114-q.png)）共同决定的，这个权重值代表着每一个局部特征的重要性。一旦我们获得了attention的权值，就可以通过下面的公式算出在t时刻的local spatial atttention的输出向量：
+其中[ ·; ·]是合并操作，![image.png](https://imgbed.momodel.cn/201919232108-J.png)是学习来的参数。attention的权重的局部特征值是由输入的局部特征和encoder层中的历史状态（即$h_{t-1}$, $s_{t-1}$）共同决定的，这个权重值代表着每一个局部特征的重要性。一旦我们获得了attention的权值，就可以通过下面的公式算出在t时刻的local spatial atttention的输出向量：
 
 ![image.png](https://imgbed.momodel.cn/201919232109-D.png)
 
