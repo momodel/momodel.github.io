@@ -41,4 +41,11 @@ date: 2018-07-28 12:00
 - Python compatibility problem
 
 
+测试
+
+$a^2 + b^2 = c^2$
+
+测试2
+
+$$a^2 + b^2 = c^2$$
 
