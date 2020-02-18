@@ -40,12 +40,3 @@ date: 2018-07-28 12:00
 - Check exception for source repo link
 - Python compatibility problem
 
-
-测试
-
-$a^2 + b^2 = c^2$
-
-测试2
-
-$$a^2 + b^2 = c^2$$
-
