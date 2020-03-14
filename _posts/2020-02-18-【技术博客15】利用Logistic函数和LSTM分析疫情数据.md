@@ -1,4 +1,9 @@
-# 15 利用Logistic函数和LSTM分析疫情数据
+
+---
+layout: post
+title: 【技术博客15】利用Logistic函数和LSTM分析疫情数据
+date: 2020-02-18 12:00
+---
 
 作者：林泽龙 Mo
 
