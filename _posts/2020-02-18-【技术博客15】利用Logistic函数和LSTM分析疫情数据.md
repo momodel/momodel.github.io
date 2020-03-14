@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: 【技术博客15】利用Logistic函数和LSTM分析疫情数据
