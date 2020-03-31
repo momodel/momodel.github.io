@@ -1,0 +1,154 @@
+# 21-用Python做中文分词与词云制作
+
+作者：梅昊铭 
+
+## 1. 导读
+在大数据时代，我们经常在媒体或者网站上看到各种各样的信息图。词云是文本大数据可视化的重要方式，可以将大段文本中的关键语句和词汇高亮展示。对于中文文本的可视化，我们需要先将中文文本进行分词；然后再将文本中的关键词做词云展示。本文将教大家如何使用Python来做中文分词并制作词云，欢迎大家跟着教程一步步实现。
+
+
+**项目地址：**[**https://momodel.cn/workspace/5e77afb7a8a7dc6753f582b9?type=app**](https://momodel.cn/workspace/5e77afb7a8a7dc6753f582b9?type=app)
+
+
+## 2. 中文分词
+### 2.1 分词入门
+所谓分词即是将文本序列按完整的意思切分成一个一个的词儿，方便进行下一步的分析（词频统计，情感分析等）。而英文词与词自带空格作为分隔符，相比于中文分词要简单。这里我们以中文分词为例来介绍。Python 为我们提供了 Jieba 库进行分词，接下来如何使用 Jieba 库进行中午呢分词。
+```python
+import jieba
+
+# 文本数据
+text = "MomodelAI是一个支持在线数据分析和AI建模的平台。"
+result = jieba.cut(text)
+
+# 将切分好的文本用" "分开
+print("分词结果: " + " ".join(result)) 
+
+'''
+分词结果: MomodelAI 是 一个 支持 在线 数据分析 和 AI 建模 的 平台 。
+'''
+```
+### 2.2 特殊名词
+对于某些特别的名词，为了使得其切分时不被分开，我们可以选择在切分前强调一下这些名词。
+```python
+text = "Mo平台是一种支持模型开发与部署的人工智能建模平台。"
+
+# 强调特殊名词
+jieba.suggest_freq(('Mo平台'), True)
+result = jieba.cut(text)
+
+print("分词结果: "+" ".join(result)) 
+
+'''
+分词结果: Mo平台 是 一种 支持 模型 开发 与 部署 的 人工智能 建模 平台 。
+'''
+```
+### 2.3 文本清洗
+一些特殊的符号在切分之后会单独成词，这些词会影响我们之后的分析。这里我们可以使用一个标点符号库 stopwords.txt，将切分出来的特殊符号剔除掉；对于“了”，“的”这样长度为一的词，显然对我们分析文本没有任何帮助。处理的方法为将长度为1的词全部剔除掉。
+```python
+#从文件导入停用词表
+stpwrdpath = "stop_words.txt"
+stpwrd_dic = open(stpwrdpath, 'rb')
+stpwrd_content = stpwrd_dic.read()
+
+#将停用词表转换为list  
+stpwrdlst = stpwrd_content.splitlines()
+stpwrd_dic.close()
+segs = jieba.cut(text)
+mytext_list = []
+
+# 文本清洗
+for seg in segs:
+    if seg not in stpwrdlst and seg!=" " and len(seg)!=1:
+        mytext_list.append(seg.replace(" "," "))
+        
+cloud_text=" ".join(mytext_list) 
+print("清洗后的分词结果： " + cloud_text)
+
+'''
+清洗后的分词结果： Mo平台 一种 支持 模型 开发 部署 人工智能 建模 平台
+'''
+```
+
+## 3. 词云制作
+### 3.1 简单词云制作
+在制作中文文本数据的词云之前，我们首先要用上面介绍的方法将中文文本进行分词。
+```python
+# 中文分词
+from wordcloud import WordCloud
+
+with open('./Mo.txt',encoding = 'utf-8', mode = 'r')as f:
+    myText = f.read()
+
+myText = " ".join(jieba.cut(myText)) 
+print(myText)
+```
+得到分词好的文本数据后，我们再使用 WordCloud 库制作词云。（注：由于 WordCloud 本身不支持中文字体，我们需要将下载的 simsun.ttf，作为指定输出字体。）
+```python
+# 制作词云
+wordcloud = WordCloud(background_color="white", font_path="simsun.ttf", height=300, width = 400).generate(myText)
+
+# 图片展示
+import matplotlib.pyplot as plt
+plt.imshow(wordcloud)
+plt.axis("off")
+plt.show()
+
+# 将词云图片导出到当前文件夹
+wordcloud.to_file("wordCloudMo.png") 
+```
+### 3.2 绘制指定形状的词云
+制作指定形状的词云的时候，我们需要先读入外部词云形状图片，这里我们使用 imageio 库。
+
+
+```python
+# 导入词云制作库wordcloud和中文分词库jieba
+import jieba
+import wordcloud
+
+# 导入imageio库中的imread函数，并用这个函数读取本地图片，作为词云形状图片
+import imageio
+mk = imageio.imread("chinamap.png")
+w = wordcloud.WordCloud(mask=mk)
+
+# 构建并配置词云对象w，注意要加scale参数，提高清晰度
+w = wordcloud.WordCloud(width=1000, height=700,background_color='white',font_path='simsun.ttf',mask=mk,scale=15)
+
+# 对来自外部文件的文本进行中文分词，得到string
+f = open('新时代中国特色社会主义.txt',encoding='utf-8')
+txt = f.read()
+txtlist = jieba.lcut(txt)
+string = " ".join(txtlist)
+
+# 将string变量传入w的generate()方法，给词云输入文字
+wordcloud = w.generate(string)
+
+
+import matplotlib.pyplot as plt
+plt.imshow(wordcloud)
+plt.axis("off")
+plt.show()
+
+# 将词云图片导出到当前文件夹
+w.to_file('chinamapWordCloud.png')
+```
+### 3.3 结果展示
+![](https://imgbed.momodel.cn/1585246545195-f9c7c350-8f6a-4a2c-bca6-ee9f786bbe2c.png)
+
+
+## 4. 参考资料
+
+1. 博客：[https://www.jianshu.com/p/e4b24a734ccc](https://www.jianshu.com/p/e4b24a734ccc)
+1. Github项目：[https://github.com/TommyZihao/zihaowordcloud](https://github.com/TommyZihao/zihaowordcloud)
+1. 视频教程：[https://www.bilibili.com/video/av53917673/?p=1](https://www.bilibili.com/video/av53917673/?p=1)
+
+
+##关于我们
+[Mo](https://momodel.cn)（网址：https://momodel.cn） 是一个支持 Python的人工智能在线建模平台，能帮助你快速开发、训练并部署模型。
+
+近期 [Mo](https://momodel.cn) 也在持续进行机器学习相关的入门课程和论文分享活动，欢迎大家关注我们的公众号获取最新资讯！
+
+![](https://imgbed.momodel.cn/联系人.png)
+
+
+
+
+
