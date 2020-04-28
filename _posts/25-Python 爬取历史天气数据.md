@@ -1,0 +1,107 @@
+# 25-Python 爬取历史天气数据
+
+作者：梅昊铭 
+
+## 1. 导读
+之前Mo给大家分享过杭州历年天气情况的数据集，相信有不少小伙伴好奇这些数据是怎么获取。今天Mo就来教大家如何使用Python来进行历史天气数据的爬取。本文的内容只要求大家熟悉 Python 即可，欢迎大家跟着小Mo一起学习。
+
+**项目地址：**[https://momodel.cn/workspace/5ea1cd698446abd9da8b73f1?type=app](https://momodel.cn/workspace/5ea1cd698446abd9da8b73f1?type=app)
+
+
+## 2. 准备工作
+### 2.1 目标网站分析
+在爬取数据之前，我们首先要对爬取的目标网站进行分析，弄清楚爬取的页面和数据在哪里，然后再利用 Python 工具进行数据爬取。
+
+首先，设定爬取数据的目标网站为[2345天气预报网](http://tianqi.2345.com/)，然后进入历史天气数据页面并设定目标城市为[杭州](http://tianqi.2345.com/wea_history/58457.htm)。
+
+然后分析该网页，我们发现改变相应的年月网页的 URL 并没有发生改变，这说明网页上的数据是动态加载的。我们打开 Chrome 浏览器的DevTools，再改变年月，发现该页面动态加载了一个 js 文件。
+
+![](https://imgbed.momodel.cn/1587693399295-b709cecb-d672-491b-94ab-65d8bf776dc7.png)
+
+
+仔细分析后，我们发现每改变一次年月，该页面就动态加载一个 js 文件。点开对应的 js 链接，我们就可以发现每个月份的历史数据是通过请求一个 js 数据文件获取的。
+
+![](https://imgbed.momodel.cn/1587693424022-c4c3f255-f3ea-445f-876c-bf1d87c00a28.png)
+
+
+接着我们使用 Python 对每一个 js 文件进行分析，就可以获取相应月份的历史天气数据了。
+                                                                             
+### 2.2 Python 库
+利用 Python 进行数据爬取时，我们常用的一些库有`requests`, `Beautifulsoup`, `scrapy`等。本文中，我们使用  `requests` 工具来获取历史天气数据的 js 数据文件，并用 `demjson` 工具包对返回的非标准 json 数据格式进行解析。最后，使用 `csv` 包将获取的历史数据存到csv文件中。
+
+本教程中使用的Python 第三方库：`requests`, `demjson`。
+
+## 3. 数据爬取
+### 3.1 构造URL列表
+通过前面的分析，我们已经了解到每个月份的历史天气数据是通过一个 Javascript 文件获取的。因此，我们需要构造带爬取数据的 URL 列表，再批量爬取数据。
+```python
+# 构造2019全年的月份列表
+months = []
+for year in (2019,):
+    for month in range(12):
+        months.append("%d%02d"%(year, month+1))
+todo_urls = [
+    "http://tianqi.2345.com/t/wea_history/js/"+month+"/58457_"+month+".js" 
+    for month in months
+]
+        
+ 
+```
+
+### 3.2 批量下载数据
+使用 `requests` 库获取 js 文件中的数据，并存到 `datas` 变量中。
+```python
+import requests
+
+datas = []
+for url in todo_urls:
+    r = requests.get(url, headers = headers)
+    if r.status_code!=200:
+        raise Exception()
+    # 去除javascript前后的字符串，得到一个js格式的JSON
+    data = r.text.lstrip("var weather_str=").rstrip(";")
+    datas.append(data)
+
+```
+## 3.3 解析数据
+       我们从 js 文件获取的数据 json 格式存储的，需要使用 demjson 对数据进行解析。
+```python
+# 解析所有月份的数据
+all_datas = []
+
+for data in datas:
+    tqInfos = demjson.decode(data)["tqInfo"]
+    all_datas.extend([x for x in tqInfos if len(x)>0])
+```
+
+### 3.4 将结果导入 csv 文件
+```python
+import csv
+with open('./hangzhou_tianqi_2019.csv', 'w', newline='', encoding='utf-8') as csv_file:
+    writer = csv.writer(csv_file)
+    columns = list(all_datas[0].keys())
+    writer.writerow(columns)
+    
+    for data in all_datas:
+        writer.writerow([data[column] for column in columns])
+```
+
+### 3.5 结果展示
+
+![](https://imgbed.momodel.cn/1587693652385-c7c64cb0-8e6a-45ca-8c26-2806ba0143ef.png)
+
+## 4. 参考资料
+
+1. Github项目：[https://github.com/peiss/ant-learn-python](https://github.com/peiss/ant-learn-python)
+1. 教程视频：[https://www.bilibili.com/video/BV1pJ411A7N2?from=search&seid=14913508329256294969](https://www.bilibili.com/video/BV1pJ411A7N2?from=search&seid=14913508329256294969)
+1. 爬虫教程：[https://morvanzhou.github.io/tutorials/data-manipulation/scraping/](https://morvanzhou.github.io/tutorials/data-manipulation/scraping/)
+
+
+## 关于我们
+[Mo](https://momodel.cn)（网址：https://momodel.cn） 是一个支持 Python的人工智能在线建模平台，能帮助你快速开发、训练并部署模型。
+
+近期 [Mo](https://momodel.cn) 也在持续进行机器学习相关的入门课程和论文分享活动，欢迎大家关注我们的公众号获取最新资讯！
+
+![](https://imgbed.momodel.cn/联系人.png)
+
+
